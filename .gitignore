@@ -1,0 +1,17 @@
+CMakeLists.txt.user
+Examples/Monocular/mono_euroc
+Examples/Monocular/mono_kitti
+Examples/Monocular/mono_tum
+Examples/RGB-D/
+Examples/ROS/
+Examples/Stereo/
+KeyFrameTrajectory.txt
+Thirdparty/
+Vocabulary/
+build/
+cmake-build-debug/
+.idea/
+*~
+lib/
+results/
+bin/
