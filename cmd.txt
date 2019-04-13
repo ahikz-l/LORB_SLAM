@@ -1,4 +1,3 @@
 ./bin/mono_kitti Vocabulary/voc.txt calib/KITTI00-02.yaml /home/kalchy/Datasets/KITTI/00
 
-./Examples/Monocular/mono_robotcar Vocabulary/voc.txt Examples/Monocular/Robotcar.yaml /home/kalchy/Datasets/RobotCar/2014-12-02-15-30-08/
-~                                                                 
+./bin/mono_robotcar Vocabulary/voc.txt calib/Robotcar.yaml /media/kalchy/My\ Passport/Data/Datasets/RobotCar/2014-12-02-15-30-08/2014-12-02-15-30-08

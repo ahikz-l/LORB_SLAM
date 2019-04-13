@@ -42,7 +42,6 @@
 
 namespace ORB_SLAM2
 {
-
 class Viewer;
 class FrameDrawer;
 class Map;
@@ -214,6 +213,12 @@ protected:
     bool mbRGB;
 
     list<MapPoint*> mlpTemporalPoints;
+
+public:
+    // Tracking loss threshold
+    static const int  TH_MATCHED;
+
+    int failtime;
 };
 
 } //namespace ORB_SLAM

@@ -84,9 +84,9 @@ public:
 
 public:
 
-    static const int TH_LOW;
-    static const int TH_HIGH;
-    static const int HISTO_LENGTH;
+    static const int TH_LOW;            // ORB match threshold
+    static const int TH_HIGH;           // ORB match threshold
+    static const int HISTO_LENGTH;      // rotation histogram vector<int> rotHist[HISTO_LENGTH]
 
 
 protected:

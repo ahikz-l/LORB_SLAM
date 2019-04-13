@@ -1380,6 +1380,7 @@ int ORBmatcher::SearchByProjection(Frame &CurrentFrame, const Frame &LastFrame, 
                 // Search in a window. Size depends on scale
                 float radius = th*CurrentFrame.mvScaleFactors[nLastOctave];
 
+                // 前一帧点的重投影像素坐标附近的当前帧的点索引数组
                 vector<size_t> vIndices2;
 
                 if(bForward)
